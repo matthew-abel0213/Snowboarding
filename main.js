@@ -8,7 +8,7 @@ function btnClicked() {
   let a1 = document.getElementById("q1").value;
   let a2 = document.getElementById("q2").value;
   let a3 = document.getElementById("q3").value.toLowerCase();
-  let a4 = document.getElementById("q4").value;
+  let a4 = document.getElementById("q4").value.toLowerCase();
   let a5 = document.getElementById("q5").value.toLowerCase();
 
   // calc score
