@@ -2,7 +2,7 @@
   <head>
     <title>Quiz</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="main.js"></script>
+    <script defer src="main.js"></script>
   </head>
 
   <header>
@@ -13,5 +13,39 @@
 
   <body>
     <h1>Quiz</h1>
+
+    <div class="question">
+      <p>
+        How many types of snowboards are there:
+        <input id="q1" type="number" /><span id="q1-is-correct-msg"></span>
+      </p>
+    </div>
+    <div class="question">
+      <p>
+        What year did modern snowboarding begin?
+        <input id="q2" type="number" /><span id="q2-is-correct-msg"></span>
+      </p>
+    </div>
+    <div class="question">
+      <p>
+        What type of board is best for backcountry?
+        <input id="q3" type="text" /><span id="q3-is-correct-msg"></span>
+      </p>
+    </div>
+    <div class="question">
+      <p>
+        What type of snowboard is best for park?
+        <input id="q4" type="text" /><span id="q4-is-correct-msg"></span>
+      </p>
+    </div>
+    <div class="question">
+      <p>
+        What is the largest snowboarding company?
+        <input id="q5" type="text" /><span id="q5-is-correct-msg"></span>
+      </p>
+    </div>
+    <p></p><button id="submit">Submit</button></p>
+
+    <h3 id="output"></h3>
   </body>
 </html>

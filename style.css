@@ -13,6 +13,7 @@ body {
   margin: auto;
   font-family: "Cormorant Garamond", sans-serif;
   word-wrap: break-word;
+  text-align: center;
 }
 
 header {
@@ -62,7 +63,7 @@ h1 {
 }
 
 .card:hover .text {
-  top: 290px;
+  top: 300px;
   opacity: 1;
 }
 
@@ -127,4 +128,49 @@ h1 {
 
 .button:hover {
   background-color: #faf9f6;
+}
+
+.question {
+  font-family: "Bebas Neue", sans-serif;
+  background-color: #fffceb;
+  color: #313639;
+  border-radius: 0.5em;
+  height: 5em;
+  font-size: x-large;
+  padding-top: 0.2em;
+  padding-left: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2em;
+  text-align: center;
+}
+
+input {
+  width: 23em;
+  border-radius: 1em;
+  border: 1px solid black;
+  height: 2em;
+}
+
+#submit {
+  color: #313639;
+  background-color: #fffceb;
+  border: none;
+  width: 8em;
+  height: 3em;
+  margin: 5em;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: x-large;
+  border-radius: 1em;
+}
+
+#output {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 50px;
+  color: #313639;
+}
+
+#submit:hover {
+  background-color: white;
 }
